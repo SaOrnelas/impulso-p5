@@ -7,7 +7,7 @@ function preload() {
 
 function setup() {
   createCanvas(700, 600);
-  background("#FFB06F");
+  background(255);
   // textFont(font);
   // textSize(192);
   // fill(255);
@@ -30,7 +30,7 @@ function setup() {
 }
  
 function draw() {
-  background("#FFB06F");
+  background(255);
  
   for (var i = 0; i < vehicles.length; i++) {
     var v = vehicles[i];
